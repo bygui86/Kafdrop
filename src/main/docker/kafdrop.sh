@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Marathon is a container orchestrator for Mesos
+
 # Set marathon ports to 0:0 to have marathon assign and pass random port
 if [ $PORT0 ]; then
     JMX_PORT=$PORT0;
